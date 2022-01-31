@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1641051808",
+        "python_version": "3.7.11 (default, Jul 27 2021, 09:42:29) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\ivans\\anaconda3\\envs\\ml-agents18\\Scripts\\mlagents-learn --run-id=Test2 --resume",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1641051818"
+    },
+    "total": 9.0920519,
+    "count": 1,
+    "self": 0.006974299999999545,
+    "children": {
+        "run_training.setup": {
+            "total": 0.034181100000000075,
+            "count": 1,
+            "self": 0.034181100000000075
+        },
+        "TrainerController.start_learning": {
+            "total": 9.0508965,
+            "count": 1,
+            "self": 0.00011950000000027217,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 8.6726251,
+                    "count": 1,
+                    "self": 8.6726251
+                },
+                "trainer_threads": {
+                    "total": 1.0000000010279564e-06,
+                    "count": 1,
+                    "self": 1.0000000010279564e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.3781508999999996,
+                    "count": 1,
+                    "self": 0.008732300000000137,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.3694185999999995,
+                            "count": 1,
+                            "self": 0.3694185999999995
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

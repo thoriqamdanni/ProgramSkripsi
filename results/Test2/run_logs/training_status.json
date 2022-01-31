@@ -1,0 +1,65 @@
+{
+    "CarDriver": {
+        "checkpoints": [
+            {
+                "steps": 499972,
+                "file_path": "results\\Test2\\CarDriver\\CarDriver-499972.onnx",
+                "reward": 22.370000013709067,
+                "creation_time": 1640194966.4509754,
+                "auxillary_file_paths": [
+                    "results\\Test2\\CarDriver\\CarDriver-499972.pt"
+                ]
+            },
+            {
+                "steps": 500036,
+                "file_path": "results\\Test2\\CarDriver\\CarDriver-500036.onnx",
+                "reward": 22.370000013709067,
+                "creation_time": 1640194966.5919375,
+                "auxillary_file_paths": [
+                    "results\\Test2\\CarDriver\\CarDriver-500036.pt"
+                ]
+            },
+            {
+                "steps": 500036,
+                "file_path": "results\\Test2\\CarDriver\\CarDriver-500036.onnx",
+                "reward": null,
+                "creation_time": 1641051485.5151055,
+                "auxillary_file_paths": [
+                    "results\\Test2\\CarDriver\\CarDriver-500036.pt"
+                ]
+            },
+            {
+                "steps": 500036,
+                "file_path": "results\\Test2\\CarDriver\\CarDriver-500036.onnx",
+                "reward": null,
+                "creation_time": 1641051687.329977,
+                "auxillary_file_paths": [
+                    "results\\Test2\\CarDriver\\CarDriver-500036.pt"
+                ]
+            },
+            {
+                "steps": 500036,
+                "file_path": "results\\Test2\\CarDriver\\CarDriver-500036.onnx",
+                "reward": null,
+                "creation_time": 1641051818.070837,
+                "auxillary_file_paths": [
+                    "results\\Test2\\CarDriver\\CarDriver-500036.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500036,
+            "file_path": "results\\Test2\\CarDriver.onnx",
+            "reward": null,
+            "creation_time": 1641051818.070837,
+            "auxillary_file_paths": [
+                "results\\Test2\\CarDriver\\CarDriver-500036.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
